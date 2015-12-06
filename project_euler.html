@@ -18,8 +18,8 @@
 						<p class="problem">The sum of these multiples is 23. Find the sum of all the multiples of 3 or 5 below 1000.</p>
 					</div>
 					<div class="solution">
-						<input type="text" name="value1" id="problem1_input" value="1000"/>
-						<input type="submit" name="solve1" value="Calculate" onclick="sumOfMultiples()"/>
+						<input type="text" name="value1" id="problem1_input" value="1000" onkeyup="submitOnEnter('problem1')"/>
+						<input type="submit" name="solve1" id="problem1_submit" value="Calculate" onclick="sumOfMultiples()"/>
 						<div class="result">
 							<p id="res1">Result: </p>
 						</div>
@@ -34,8 +34,8 @@
 						<p class="problem">By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.</p>
 					</div>
 					<div class="solution">
-						<input type="text" name="value2" id="problem2_input" value="4000000"/>
-						<input type="submit" name="solve2" value="Calculate" onclick="evenFibonacciNumbers()"/>
+						<input type="text" name="value2" id="problem2_input" value="4000000" onkeyup="submitOnEnter('problem2')"/>
+						<input type="submit" name="solve2" id="problem2_submit" value="Calculate" onclick="evenFibonacciNumbers()"/>
 						<div class="result">
 							<p id="res2">Result: </p>
 						</div>
@@ -49,8 +49,8 @@
 						<p class="problem">What is the largest prime factor of the number 600851475143 ?</p>
 					</div>
 					<div class="solution">
-						<input type="text" name="value3" id="problem3_input" value="600851475143"/>
-						<input type="submit" name="solve3" value="Calculate" onclick="primeFactors()"/>
+						<input type="text" name="value3" id="problem3_input" value="600851475143" onkeyup="submitOnEnter('problem3')"/>
+						<input type="submit" name="solve3" id="problem3_submit" value="Calculate" onclick="primeFactors()"/>
 						<div class="result">
 							<p id="res3">Result: </p>
 						</div>
