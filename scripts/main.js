@@ -76,9 +76,8 @@ function primeFactors () {
 }
 
 function submitOnEnter (arg) {
-	var initialArg = arg;
 	var targetId;
-	switch(initialArg) {
+	switch(arg) {
 		case "problem3":
 			targetId = "problem3_submit";
 			break;
